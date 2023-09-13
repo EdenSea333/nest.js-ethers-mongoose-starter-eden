@@ -1,0 +1,6 @@
+import { PIKACHU_NETWORK } from './provider.constants';
+
+export const PIKACHU_ADDRESS = {
+  1: '0x16DD4a1344e3759c17CC992Bfcb9B902723B6aa3',
+  80001: '0x16DD4a1344e3759c17CC992Bfcb9B902723B6aa3',
+}[PIKACHU_NETWORK.id];
